@@ -5,13 +5,9 @@
   <artifactId>com.airtightinteractive.simpleviewer</artifactId>
   <name>Airtight Interactive Simpleviewer</name>
   <currentVersion>1.7-SNAPSHOT</currentVersion>
-  <organization />
+  <organization>Airtight Interactive</organization>
   <inceptionYear>2005</inceptionYear>
   <shortDescription>This is an image gallery module intergration to idegaWeb</shortDescription>
-  <repository />
-  <versions>
-
-  </versions>
   <developers>
     <developer>
       <id>gummi</id>
