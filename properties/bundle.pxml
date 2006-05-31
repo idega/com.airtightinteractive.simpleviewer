@@ -9,7 +9,21 @@
     <key>
       <name>iw_components</name>
       <value>
-        <map />
+        <map>
+          <key>
+            <name>com.airtightinteractive.simpleviewer.presentation.SimpleViewer</name>
+            <value>
+              <map>
+                <key>
+                  <name>component_property_file</name>
+                  <type>java.lang.String</type>
+                  <value>com.airtightinteractive.simpleviewer.presentation.SimpleViewer.pxml</value>
+                </key>
+              </map>
+            </value>
+            <type>map</type>
+          </key>
+        </map>
       </value>
       <type>map</type>
     </key>
