@@ -1,5 +1,5 @@
 /*
- * $Id: SimpleViewerUtil.java,v 1.1 2005/06/30 14:12:58 gummi Exp $
+ * $Id: SimpleViewerUtil.java,v 1.2 2006/05/31 12:37:44 eiki Exp $
  * Created on 7.2.2005
  *
  * Copyright (C) 2005 Idega Software hf. All Rights Reserved.
@@ -17,10 +17,10 @@ import com.idega.presentation.IWContext;
 
 /**
  * 
- *  Last modified: $Date: 2005/06/30 14:12:58 $ by $Author: gummi $
+ *  Last modified: $Date: 2006/05/31 12:37:44 $ by $Author: eiki $
  * 
  * @author <a href="mailto:gummi@idega.com">Gudmundur Agust Saemundsson</a>
- * @version $Revision: 1.1 $
+ * @version $Revision: 1.2 $
  */
 public class SimpleViewerUtil {
 	
@@ -46,12 +46,12 @@ public class SimpleViewerUtil {
 	}
 	
 	public static String getContentRootPath(){
-		return ContentUtil.getContentRootPath();
+		return ContentUtil.getContentBaseFolderPath();
 	}
 
 	
 	public static String getSimpleViewerRootPath(){
-		return ContentUtil.getContentRootPath()+SIMPLE_VIEWER_CONTENT_PATH;
+		return ContentUtil.getContentBaseFolderPath()+SIMPLE_VIEWER_CONTENT_PATH;
 	}
 
 }
